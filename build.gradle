@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'eclipse'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	compile("org.infinispan:infinispan-core:9.1.0.Final")
+}
